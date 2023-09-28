@@ -66,7 +66,7 @@ w_min, w_max, c_min, c_max = wordsrepeat(pathQuijote)
 
 print(f'la palabra que menos se repite es "{w_min}" con {c_min} repeticiones, la palabra que mas se repite es "{w_max}" con {c_max} repeticiones')
 
-[21:30] Eder  Lara Trujillo
+
 
 import csv
 
