@@ -62,7 +62,8 @@ def wordsrepeat(file):
 
  
 
-w_min, w_max, c_min, c_max = wordsrepeat(pathQuijote)
+w_min, w_max, c_min, c_max = wordsrepeat(pathquijote)
+
 
 print(f'la palabra que menos se repite es "{w_min}" con {c_min} repeticiones, la palabra que mas se repite es "{w_max}" con {c_max} repeticiones')
 
@@ -93,7 +94,5 @@ def csvToJson(file_in, file_out):
         json.dump(data, json_file)
 
     print(f'Se ha transformado el archivo {file_in} y lo hemos exportado a {file_out}')
-
-[21:30] Eder  Lara Trujillo
-
+    
 csvToJson('mi_archivo.csv', 'elnew.json')
