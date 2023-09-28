@@ -10,6 +10,8 @@ EL CUENTO DE NUNCA ACABAR
 —¿De modo —dijo don Quijote— que ya la historia es acabada?
 —Tan acabada es como mi madre —dijo Sancho. 
 
+
+pathquijote='file/quijote1.txt'
 def wordsrepeat(file):
 
     with open(file,'r', encoding='utf8') as f:
@@ -40,11 +42,8 @@ def wordsrepeat(file):
 
         c_maximo = tmp[maximo]
 
-    return minimo, maximo,c_minimo,c_maximo
-
- 
-
-w_min, w_max, c_min, c_max = wordsrepeat(pathquijote)
+    return minimo, maximo,c_minimo,c_maximow_min,
+w_max, c_min, c_max = wordsrepeat(pathquijote)
 
 
 print(f'la palabra que menos se repite es "{w_min}" con {c_min} repeticiones, la palabra que mas se repite es "{w_max}" con {c_max} repeticiones')
